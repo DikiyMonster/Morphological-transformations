@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Morphological Operations</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="container">
+        <input type="file" id="fileInput">
+        <canvas id="canvas"></canvas>
+        <div id="btnContainer">
+            <button id="originalBtn">Оригинал</button>
+            <button id="erodeBtn">Эрозия</button>
+            <button id="dilateBtn">Дилатация</button>
+            <button id="openBtn">Открытие</button>
+            <button id="closeBtn">Закрытие</button>
+            <button id="gradientBtn">Градиент</button>
+        </div>
+    </div>
+<script src="https://docs.opencv.org/4.5.1/opencv.js" async></script>
+<script src="index.js"></script>
+</body>
+</html>
